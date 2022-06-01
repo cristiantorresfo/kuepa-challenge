@@ -1,0 +1,30 @@
+
+
+.task{
+    background-color: wheat;
+    display: flex;    
+    border: 2px solid;
+    border-radius: 10px;
+    align-items: center;
+    width: 45%;
+    margin: 0.3125rem;
+
+}
+
+.information{
+    display: flex;
+    font-size: 0.625rem;
+    background-color: aqua;
+    flex-direction: column;
+    padding: 0.5rem 0.3121rem;
+
+}
+.information div{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    
+    
+}
+
+
