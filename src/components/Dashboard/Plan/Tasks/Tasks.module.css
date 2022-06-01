@@ -1,0 +1,19 @@
+.tasks{
+    width: 50%;
+    
+}
+.headerTasks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.9375rem;
+}
+.headerTasks p {
+    font-size: 0.75rem;
+}
+.tasksList{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
