@@ -1,0 +1,15 @@
+.groupGoal{
+    width: 30%;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 1.25rem;
+    padding: 0.5rem;
+}
+.groupGoal p {
+    font-size: 0.75rem;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+}
