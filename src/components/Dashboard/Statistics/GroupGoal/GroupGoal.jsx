@@ -4,15 +4,18 @@ function GroupGoal () {
   return (
     <div className={styles.groupGoal} >
         <h5>Meta Grupal</h5>
-        <div className={styles.information}>
+        <div className={styles.info}>
           <div>Leads Obtenidos</div>
-          <div>50/100</div>
+          <div>200/400</div>
         </div>
+        <progress id="file" max="400" value="200"> </progress>
         
-        <div className={styles.information}>
+        <div className={styles.info}>
           <div>Matrículas finalizadas</div>
           <div>50/100</div>
         </div>
+        <progress id="file" max="100" value="50"> </progress>
+
     </div>
   )
 }

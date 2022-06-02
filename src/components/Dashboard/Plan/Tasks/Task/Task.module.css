@@ -6,7 +6,6 @@
     border: 2px solid;
     border-radius: 10px;
     align-items: center;
-    width: 45%;
     margin: 0.3125rem;
 
 }
@@ -19,10 +18,11 @@
     padding: 0.5rem 0.3121rem;
 
 }
-.information div{
+.task div{
     width: 50%;
     align-items: center;
     display: flex;
+
     
     
 }

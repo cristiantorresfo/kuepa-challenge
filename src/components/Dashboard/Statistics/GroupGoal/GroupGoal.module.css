@@ -1,15 +1,22 @@
 .groupGoal{
-    width: 30%;
-    border: 2px solid;
+    width: 15.625rem;
     border-radius: 10px;
     margin-left: 1.25rem;
     padding: 0.5rem;
+    align-items: center;
+    background-color: #fff;
+
 }
 .groupGoal p {
     font-size: 0.75rem;
 }
 
-.information{
+.groupGoal progress{
+    width: 100%;
+    
+}
+.info{
     display: flex;
     justify-content: space-between;
+    margin-top: 0.9375rem;
 }
