@@ -2,7 +2,7 @@
 import './App.css';
 import Sidebar from './components/Sidebar/Sidebar';
 import Dashboard from './components/Dashboard/Dashboard';
-import Messages from './components/Messages/Messages';
+import Messages from './components/Dashboard/Messages/Messages';
 
 function App() {
   return (

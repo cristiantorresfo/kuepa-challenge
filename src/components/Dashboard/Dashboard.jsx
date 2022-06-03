@@ -2,7 +2,7 @@ import Header from "./Header/Header";
 import styles from "./Dashboard.module.css";
 import Statistics from "./Statistics/Statistics";
 import Plan from "./Plan/Plan";
-import Messages from "../Messages/Messages";
+import Messages from "./Messages/Messages";
 
 function Dashboard() {
   return (

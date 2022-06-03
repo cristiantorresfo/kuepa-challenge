@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { LeadContext } from "../../context/LeadContext";
+import { LeadContext } from "../../../context/LeadContext";
 import styles from "./Messages.module.css";
 
 function Messages() {
