@@ -1,19 +1,135 @@
-.tasks{
+.tasks {
     width: 50%;
-    
+    margin-top: 0.9375rem;
+
 }
-.headerTasks{
+
+.headerTasks {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0.9375rem;
 }
+
 .headerTasks p {
-    font-size: 0.75rem;
+    font-size: 1rem;
 }
-.tasksList{
+
+.taskList {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 2.5rem;
+}
 
-    
+
+.task {
+    background-color: #fff;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    margin: 0.6rem;
+    padding: 0.3125rem;
+
+
+}
+
+.information {
+    display: flex;
+    font-size: 1rem;
+    width: 50%;
+    background-color: #fff;
+    flex-direction: column;
+    padding: 0.5rem 0.3121rem;
+
+
+}
+
+
+.totalTasks {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3125rem;
+
+}
+
+.totalTasks1 {
+    background: linear-gradient(to bottom right, #1ed8fd, rgb(204, 222, 232));
+    ;
+}
+
+.totalTasks2 {
+    background: linear-gradient(to bottom right, #67e359, rgb(204, 232, 213));
+    ;
+}
+
+.totalTasks3 {
+    background: linear-gradient(to bottom right, #b057f4, rgb(219, 204, 232));
+    ;
+}
+
+.number {
+    display: flex;
+    width: 4.375rem;
+    height: 4.375rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem;
+    color: #01100f
+}
+
+@media screen and (max-width: 1500px) {
+    .task {
+        margin-top: 0;
+    }
+
+    .taskList {
+        margin-top: 0;
+    }
+
+
+    .information {
+        font-size: 0.8rem;
+    }
+
+    .headerTasks {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .task {
+        margin-top: 0;
+        width: 45%;
+    }
+
+    .taskList {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .tasks {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .taskList {
+        justify-content: center;
+    }
+
+    .task {
+        width: 80%;
+    }
+
+    .headerTasks {
+        flex-direction: column;
+    }
 }

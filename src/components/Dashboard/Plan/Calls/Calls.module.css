@@ -1,7 +1,74 @@
-.calls{
+.calls {
     width: 50%;
-    background-color: yellow;
+    background-color: #fff;
     margin-right: 1.25rem;
-    height: 300px;
-    overflow-y:auto;
+    border-radius: 15px;
+    padding: 1.25rem;
+}
+
+.leadsCalls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    background-color: rgb(214, 222, 227);
+    padding-right: 1.25rem;
+    width: 100%;
+}
+
+.callsList {
+    height: 18.75rem;
+    overflow-y: auto;
+}
+
+.circle {
+    width: 1.25rem;
+    height: 1.25rem;
+    background-color: rgb(255, 119, 0);
+    border-radius: 50%;
+}
+
+.color {
+    background-color: #1ed8fd;
+    width: 0.3125rem;
+}
+
+.list {
+    display: flex;
+}
+
+.list:hover {
+    cursor: pointer;
+}
+
+.callsList::-webkit-scrollbar {
+    height: 0.625rem;
+    width: 0.4375rem;
+}
+
+.callsList::-webkit-scrollbar-thumb {
+    background: #a6bbe8;
+    border-radius: 4px;
+}
+
+.callsList::-webkit-scrollbar-thumb:hover {
+    background: #fcd38f;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1500px) {
+    .calls {
+        width: 45%;
+        font-size: 0.8rem;
+    }
+
+    .callsList {
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .calls {
+        width: 100%;
+    }
 }

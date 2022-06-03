@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
 }
 .App{
-  background-color: rgba(0, 0, 0, 0.865);
+  background-color: rgba(47, 47, 65, 0.865);
+  display: flex;   
+}
 
-  display: flex;
-  justify-content: space-between;
-  
-  
+@media screen and (max-width: 820px){
+  body{
+    font-size: 0.8rem;
+  }
+  .App{
+    flex-direction: column;
+    width: 100%;
+  }
 }

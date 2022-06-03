@@ -2,13 +2,14 @@
 import './App.css';
 import Sidebar from './components/Sidebar/Sidebar';
 import Dashboard from './components/Dashboard/Dashboard';
+import Messages from './components/Messages/Messages';
 
 function App() {
   return (
     <div className="App">
       <Sidebar/>
       <Dashboard/>      
-      <Sidebar/>
+     
     </div>
   );
 }

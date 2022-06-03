@@ -2,10 +2,9 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.875rem;
-    
 }
 
-.header input{
+.header input {
     border-radius: 60px;
     border: none;
     background-color: blanchedalmond;
@@ -15,5 +14,4 @@
 .alignCenter {
     display: flex;
     align-items: center;
-    
 }
