@@ -9,9 +9,8 @@ function Dashboard() {
     <div className={styles.containerDashboard}>
       <div className={styles.dashboard}>
         <Header />
-        <h3>
-          {" "}
-          <strong>Hola,</strong>{" "}
+        <h3>          
+          <strong>Hola,Jorge</strong>
         </h3>
         <Statistics />
         <Plan />
