@@ -10,7 +10,7 @@ function Dashboard() {
       <div className={styles.dashboard}>
         <Header />
         <h3>          
-          <strong>Hola,Jorge</strong>
+          <strong>Hola, Jorge</strong>
         </h3>
         <Statistics />
         <Plan />
